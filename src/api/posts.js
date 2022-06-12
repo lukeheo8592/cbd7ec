@@ -42,7 +42,7 @@ router.post('/', async (req, res, next) => {
   }
 });
 
-router.get('/api/posts/:authorIds', async (req, res)=>{
+router.get('/api/posts', async (req, res)=>{
 
   //
   try{
